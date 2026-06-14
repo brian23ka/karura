@@ -6,7 +6,7 @@ function Navigation() {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <span className="logo-icon">📚</span>
+          <img src="/chatgpt-badge.png" alt="ChatGPT Badge" className="logo-icon" />
           Karura SDA Secondary School
         </Link>
         <ul className="nav-menu">

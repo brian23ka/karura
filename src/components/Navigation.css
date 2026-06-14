@@ -27,7 +27,9 @@
 }
 
 .logo-icon {
-  font-size: 2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
 }
 
 .nav-menu {
