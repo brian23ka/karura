@@ -22,8 +22,9 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Here you would typically send the form data to a server
-    console.log('Form submitted:', formData)
+    const subject = `Contact Form: ${formData.subject || 'General Inquiry'}`
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
+    window.location.href = `mailto:karura2011@yahoo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     setSubmitted(true)
     setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
     setTimeout(() => setSubmitted(false), 5000)
@@ -62,25 +63,24 @@ function Contact() {
 
           <div className="info-card">
             <h3>📧 Email</h3>
-            <p>General: info@karurasda.edu</p>
-            <p>Admissions: admissions@karurasda.edu</p>
-            <p>Principal: principal@karurasda.edu</p>
+            <p>General: karura2011@yahoo.com</p>
+            <p>Admissions: karura2011@yahoo.com</p>
+            <p>Principal: karura2011@yahoo.com</p>
           </div>
 
           <div className="info-card">
             <h3>🕐 Office Hours</h3>
             <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
-            <p>Saturday: 9:00 AM - 1:00 PM</p>
-            <p>Sunday: Closed</p>
+            <p>Weekends: Closed</p>
           </div>
 
           <div className="departments">
             <h3>Department Contacts</h3>
             <ul>
-              <li><strong>Academic:</strong> academic@karurasda.edu</li>
-              <li><strong>Admissions:</strong> admissions@karurasda.edu</li>
-              <li><strong>Student Support:</strong> support@karurasda.edu</li>
-              <li><strong>Finance:</strong> finance@karurasda.edu</li>
+              <li><strong>Academic:</strong> karura2011@yahoo.com</li>
+              <li><strong>Admissions:</strong> karura2011@yahoo.com</li>
+              <li><strong>Student Support:</strong> karura2011@yahoo.com</li>
+              <li><strong>Finance:</strong> karura2011@yahoo.com</li>
             </ul>
           </div>
         </section>

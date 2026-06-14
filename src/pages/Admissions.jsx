@@ -71,7 +71,7 @@ function Admissions() {
         <h2>Tuition and Fees</h2>
         <p>For current fee structure, please contact the school office:</p>
         <div className="fees-contact">
-          <p><strong>Email:</strong> admissions@karurasda.edu</p>
+          <p><strong>Email:</strong> karura2011@yahoo.com</p>
           <p><strong>Phone:</strong> +254-XXX-XXX-XXX</p>
           <p><strong>Office Hours:</strong> Monday - Friday, 8:00 AM - 4:00 PM</p>
         </div>

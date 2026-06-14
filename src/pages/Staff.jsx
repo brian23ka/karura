@@ -6,49 +6,49 @@ function Staff() {
       name: "Dr. Samuel Kipchoge",
       position: "Principal",
       department: "Administration",
-      email: "principal@karurasda.edu"
+      email: "karura2011@yahoo.com"
     },
     {
       name: "Mrs. Jane Wanjiru",
       position: "Deputy Principal (Academic)",
       department: "Administration",
-      email: "deputies@karurasda.edu"
+      email: "karura2011@yahoo.com"
     },
     {
       name: "Mr. David Omondi",
       position: "Head of Science",
       department: "Science",
-      email: "science@karurasda.edu"
+      email: "karura2011@yahoo.com"
     },
     {
       name: "Miss Emily Kariuki",
       position: "Head of Languages",
       department: "Languages",
-      email: "languages@karurasda.edu"
+      email: "karura2011@yahoo.com"
     },
     {
       name: "Mr. Joseph Kipkoech",
       position: "Head of Mathematics",
       department: "Mathematics",
-      email: "mathematics@karurasda.edu"
+      email: "karura2011@yahoo.com"
     },
     {
       name: "Dr. Margaret Kimani",
       position: "Head of Social Sciences",
       department: "Social Sciences",
-      email: "social@karurasda.edu"
+      email: "karura2011@yahoo.com"
     },
     {
       name: "Mr. Peter Njoroge",
       position: "Sports Director",
       department: "Co-Curricular",
-      email: "sports@karurasda.edu"
+      email: "karura2011@yahoo.com"
     },
     {
       name: "Mrs. Faith Kiplagat",
       position: "Counselor",
       department: "Student Support",
-      email: "counseling@karurasda.edu"
+      email: "karura2011@yahoo.com"
     }
   ]
 
