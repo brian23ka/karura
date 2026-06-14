@@ -45,7 +45,7 @@ function Home() {
           <Link to="/about" className="link-button">Learn More →</Link>
         </div>
         <div className="about-image">
-          <div className="placeholder-image">📷 School Campus</div>
+          <img src="https://i.ytimg.com/vi/Q966_nSM7Wo/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC4AOKAgwIABABGGUgVShFMA8=&rs=AOn4CLC3_1kpbhJaeVOjDXjtXMwke9B69Q" alt="Karura SDA School Campus" className="campus-image" />
         </div>
       </section>
 

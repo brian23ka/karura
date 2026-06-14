@@ -11,17 +11,14 @@ function About() {
       <section className="content-section">
         <h2>Our Mission</h2>
         <p>
-          To provide quality Seventh-day Adventist education that develops spiritually mature, 
-          academically excellent, and socially responsible individuals prepared to serve their 
-          communities and fulfill their God-given potential.
+          To provide Excellent, holistic education that caters for the Spiritual, Academic, Physical and Social spheres.
         </p>
       </section>
 
       <section className="content-section">
         <h2>Our Vision</h2>
         <p>
-          To be a center of excellence in Christian education, nurturing leaders of integrity 
-          who make positive differences in the world through faith, knowledge, and service.
+          A center of excellence in wholesome education in Kenya.
         </p>
       </section>
 

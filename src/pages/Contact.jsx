@@ -41,16 +41,23 @@ function Contact() {
           <h2>Contact Information</h2>
           
           <div className="info-card">
-            <h3>📍 Location</h3>
-            <p>Karura, Nairobi</p>
-            <p>Kenya</p>
+            <h3>📍 Physical Address</h3>
+            <p>Red Hill Road</p>
+            <p>Nairobi, Kenya</p>
           </div>
 
           <div className="info-card">
-            <h3>📞 Phone</h3>
-            <p>Main Line: +254-XXX-XXX-XXX</p>
-            <p>Admissions: +254-XXX-XXX-XXX</p>
-            <p>Fax: +254-XXX-XXX-XXX</p>
+            <h3>📮 Postal Address</h3>
+            <p>P.O. Box 63445-00619</p>
+            <p>Muthaiga, Nairobi, Kenya</p>
+          </div>
+
+          <div className="info-card">
+            <h3>📞 Phone Numbers</h3>
+            <p><strong>Principal's Office:</strong> 0721709458</p>
+            <p><strong>Secondary Sch. Division:</strong> 0729 852 044</p>
+            <p><strong>Junior Sch. Division:</strong> 0715 434 159</p>
+            <p><strong>Primary Sch. Division:</strong> 0703 568 897</p>
           </div>
 
           <div className="info-card">
@@ -165,9 +172,17 @@ function Contact() {
 
       <section className="location-section">
         <h2>Visit Us</h2>
-        <p>We are located in the Karura area of Nairobi. Feel free to visit our campus during office hours.</p>
-        <div className="map-placeholder">
-          📍 Map Location - Karura, Nairobi, Kenya
+        <p>Located on Red Hill Road in Nairobi, our campus welcomes visitors during office hours. Find us on the map below.</p>
+        <div className="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8237883462326!2d36.77838!3d-1.32089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKarura%20SDA%20School!5e0!3m2!1sen!2ske!4v1623456789" 
+            width="100%" 
+            height="450" 
+            style={{border: 0, borderRadius: '8px'}} 
+            allowFullScreen="" 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </section>
     </div>

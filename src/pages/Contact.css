@@ -183,6 +183,35 @@
   justify-content: center;
 }
 
+.map-container {
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+  display: block;
+  width: 100%;
+}
+
+.location-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.location-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
   .page-header h1 {
     font-size: 1.8rem;

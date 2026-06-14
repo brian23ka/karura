@@ -18,9 +18,13 @@ function Footer() {
         </div>
         <div className="footer-section">
           <h4>Contact Info</h4>
-          <p>Email: info@karurasda.edu</p>
-          <p>Phone: +254-XXX-XXX-XXX</p>
-          <p>Location: Karura, Kenya</p>
+          <p><strong>Principal:</strong> 0721709458</p>
+          <p><strong>Secondary:</strong> 0729 852 044</p>
+          <p><strong>Junior:</strong> 0715 434 159</p>
+          <p><strong>Primary:</strong> 0703 568 897</p>
+          <p><strong>Address:</strong> Red Hill Road, Nairobi, Kenya</p>
+          <p><strong>P.O. Box:</strong> 63445-00619 Muthaiga</p>
+          <p><a href="https://share.google/UEGqwCn89Se7WQwh6" target="_blank" rel="noopener noreferrer" className="footer-link">📍 View on Google Maps</a></p>
         </div>
         <div className="footer-section">
           <h4>Follow Us</h4>
