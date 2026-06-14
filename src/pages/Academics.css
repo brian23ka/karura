@@ -1,0 +1,199 @@
+.academics-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.page-header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, #1e40af 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 0 -2rem 2rem;
+  margin-top: 0;
+  border-radius: 0 0 8px 8px;
+}
+
+.page-header h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+}
+
+.content-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.content-section:last-child {
+  border-bottom: none;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.content-section h3 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 1rem;
+  color: var(--primary-color);
+}
+
+.content-section p {
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* Subjects Grid */
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.subject {
+  padding: 1rem;
+  background: white;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+/* Streams Grid */
+.streams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.stream-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--secondary-color);
+}
+
+.stream-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.stream-card ul {
+  list-style: none;
+}
+
+.stream-card li {
+  padding: 0.5rem 0;
+  color: var(--text-light);
+}
+
+.stream-card li:before {
+  content: "• ";
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Methods List */
+.methods-list {
+  list-style: none;
+  margin: 1.5rem 0;
+}
+
+.methods-list li {
+  padding: 1rem;
+  background-color: var(--bg-light);
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border-left: 4px solid var(--accent-color);
+  color: var(--text-dark);
+}
+
+.methods-list strong {
+  color: var(--primary-color);
+}
+
+/* Activities Grid */
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.activity-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.activity-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.activity-card p {
+  color: var(--text-light);
+}
+
+/* Achievements List */
+.achievements-list {
+  list-style: none;
+  margin: 1.5rem 0;
+}
+
+.achievements-list li {
+  padding: 1rem;
+  background-color: var(--bg-light);
+  margin-bottom: 0.8rem;
+  border-radius: 4px;
+  border-left: 4px solid var(--success-color);
+  color: var(--text-dark);
+}
+
+.achievements-list li:before {
+  content: "★ ";
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .subjects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .streams-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+  }
+}
