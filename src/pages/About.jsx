@@ -58,12 +58,12 @@ function About() {
       <section className="content-section">
         <h2>History</h2>
         <p>
-          Founded in 1999, Karura SDA Secondary School has grown to become one of the region's 
-          leading educational institutions. Our commitment to academic excellence combined with 
-          Christian values has enabled us to produce graduates who excel in universities and 
-          contribute meaningfully to society. Over two decades, we have maintained our dedication 
-          to holistic education that develops the whole person - intellectually, spiritually, 
-          physically, and socially.
+          Founded in 1930, Karura SDA School has grown into a respected educational institution 
+          serving Kenyan primary, junior, and senior school students, including Form 3 and Form 4. 
+          Our commitment to academic excellence combined with Christian values has enabled us to 
+          produce graduates who excel in national examinations and contribute meaningfully to society. 
+          For more than nine decades, we have maintained our dedication to holistic education that 
+          develops the whole person - intellectually, spiritually, physically, and socially.
         </p>
       </section>
 

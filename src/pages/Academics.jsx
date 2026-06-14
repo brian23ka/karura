@@ -9,13 +9,13 @@ function Academics() {
       </div>
 
       <section className="content-section">
-        <h2>Form 1 & 2 (Year 9 & 10)</h2>
+        <h2>Primary & Junior School</h2>
         <p>
-          These formative years establish strong academic foundations and develop critical 
-          thinking skills. Students explore various subjects to discover their interests before 
-          specializing in Form 3.
+          Our primary and junior school programs provide a strong foundation in literacy, 
+          numeracy, and Christian values. Students receive supportive instruction in key subjects 
+          while developing character and a love of learning.
         </p>
-        <h3>Subjects Offered:</h3>
+        <h3>Primary & Junior Subjects:</h3>
         <div className="subjects-grid">
           <div className="subject">English</div>
           <div className="subject">Mathematics</div>
@@ -29,11 +29,11 @@ function Academics() {
       </section>
 
       <section className="content-section">
-        <h2>Form 3 & 4 (Year 11 & 12)</h2>
+        <h2>Form 3 & 4 (Year 11 & 12) - CBC Senior School</h2>
         <p>
-          Students specialize in streams based on their abilities and interests. The curriculum 
-          is designed to prepare them for the KCSE (Kenya Certificate of Secondary Education) 
-          national examination and higher education.
+          In our senior school, students study Form 3 and Form 4 as part of Kenya's 8-4-4 system 
+          while also embracing the Competency-Based Curriculum framework. The program is designed 
+          to prepare learners for the KCSE national examination and higher education.
         </p>
         <h3>Available Streams:</h3>
         <div className="streams-grid">
